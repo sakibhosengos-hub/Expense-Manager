@@ -39,3 +39,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+git add .
+git commit -m "update github actions node24"
+git push
